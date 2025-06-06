@@ -1,30 +1,12 @@
-# Prueba Técnica - Diseñador web.
+# React + Vite
 
-## Objetivo
-Evaluar habilidades en maquetación semántica, CSS moderno (Flexbox/Grid), diseño responsivo.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-#### ¿Qué se busca evaluar?
-Principalmente los siguientes aspectos:
-  + Estructura HTML (Semántica y Accesible).
-  + Maquetación fluida y adaptable con CSS Grid o Flexbox.
-  + Alineación y distribución coherente de elementos de acuerdo al mockup.
+Currently, two official plugins are available:
 
-#### Requerimientos.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-1. Maquetar con HTML, CSS, JS el Mockup de la siguiente aplicación:
+## Expanding the ESLint configuration
 
-  https://xd.adobe.com/view/883a089e-fa7f-46b6-b09a-2230ffe9491c-dd69/screen/b2a67737-3976-49fb-828c-41e8390888d2
-
-    -  El maquetado se debe de adaptar a diferentes resoluciones móviles(teléfonos y tabletas).  
-
-    Las imágenes y fuentes se encuentran disponibles en las carpetas images y fonts de este repositorio
-
-3. **CSS:** Utilizar algún framework CSS (a elección, de preferencia bootstrap 5) para los archivos CSS, tomando en cuenta la compatibilidad con distintos navegadores.
-
-4. **Iconos:** Utilizar una librería para el manejo de iconos donde lo considere necesario (_se recomienda el uso de [Font Awesome](http://fontawesome.io/))
-5. Opcional. Crear la estructura de proyecto utilizando algún  framework web(Angular, React o vue). 
-
-#### Entrega
-
-  - Subir el proyecto a un repositorio de  GitHub (público) y compartirlo por correo electrónico.
-    
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
